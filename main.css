@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(219, 119, 163);
+    font-family: 'roboto', arial, helvetica;
+}
+
+section {
+    height: 100vh;
+}
+
+.first-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.first-page p {
+    font-size: 2em;
+    text-align: center;
+    font-weight: 700;
+}
+
+.garland {
+    display: flex;
+    overflow-x: hidden;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.garland img {
+    overflow: hidden;
+}
+
+.second-page {
+    overflow-x: hidden;
+    position: relative;
+}
+
+.door {
+    top: 30%;
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    align-items: center;
+    position: relative;
+}
+
+.door p {
+    position: absolute;
+    right: 30%;
+    overflow-x: hidden;
+}
+
+.door-img {
+    position: absolute;
+    height: 500px;
+    cursor: pointer;
+    display: inline;
+}
+
+.close {
+    z-index: 4;
+}
+
+.hide {
+    display: none;
+}
+
+.tamanna {
+    display: flex;
+    justify-content: center;
+}
+
+.tamanna-photo {
+    height: 500px;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+
+}
+
+.petal {
+    height: 50px;
+    position: absolute;
+
+}
