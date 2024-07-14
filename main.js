@@ -106,7 +106,6 @@ tl.from(".close", {
     scrollTrigger: {
         trigger: ".right",
         scroller: "body",
-        markers: true,
         start: "top 60%",
         end: "top 30%",
         // toggleActions: "restart none none reverse",
